@@ -294,7 +294,7 @@ open class ProgressSnackBar: NSObject {
     
     lazy private var text : UILabel = {
         let text = UILabel(frame: .zero)
-        text.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightMedium)
+        text.font = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.medium)
         text.translatesAutoresizingMaskIntoConstraints = false
         text.numberOfLines = 2
         return text
