@@ -17,14 +17,14 @@ import UIKit
  
  */
 
-enum SnackBarPosition : Int {
+public enum SnackBarPosition : Int {
     /// position at the bottom of the screen
     case bottom
     /// position at the top of the screen
     case top
 }
 
-class ProgressSnackBar: NSObject {
+open class ProgressSnackBar: NSObject {
     
     /** Position of the snackbar in the window. */
     open var position : SnackBarPosition = .bottom {
@@ -119,7 +119,7 @@ class ProgressSnackBar: NSObject {
     private var progressWidthConstraint = NSLayoutConstraint()
     private var progressBackConstraints = [NSLayoutConstraint]()
     
-    override init(){
+    public override init(){
         super.init()
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(orientationDidChange),
