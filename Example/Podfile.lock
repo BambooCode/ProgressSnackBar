@@ -1,0 +1,21 @@
+PODS:
+  - ProgressSnackBar (0.0.1)
+
+DEPENDENCIES:
+  - ProgressSnackBar (from `https://github.com/BambooCode/ProgressSnackBar.git`)
+
+EXTERNAL SOURCES:
+  ProgressSnackBar:
+    :git: https://github.com/BambooCode/ProgressSnackBar.git
+
+CHECKOUT OPTIONS:
+  ProgressSnackBar:
+    :commit: c3cf27e707cb728b4442e6ddf41b34a4ebd3433b
+    :git: https://github.com/BambooCode/ProgressSnackBar.git
+
+SPEC CHECKSUMS:
+  ProgressSnackBar: 0d8ec016ca1383c573e23ec70835fbede6c7545e
+
+PODFILE CHECKSUM: 791b0f92ae05da0538bae1dc329b5765d8d6fa6d
+
+COCOAPODS: 1.2.0

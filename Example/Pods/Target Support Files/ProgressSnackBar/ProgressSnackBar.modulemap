@@ -1,0 +1,6 @@
+framework module ProgressSnackBar {
+  umbrella header "ProgressSnackBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
