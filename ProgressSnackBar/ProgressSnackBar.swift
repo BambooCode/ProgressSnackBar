@@ -129,6 +129,23 @@ open class ProgressSnackBar: NSObject {
     
     /**
      
+     Hide visible Snackbar
+     
+     ## Usage Example: ##
+     
+     ````
+     let sb = Snackbar()
+     sb.hide()
+     ````
+     
+     Note: [Visit Github](http://github.com/BambooCode/ProgressSnackBar) for more information.
+     */
+    open func hide() {
+        self.hideSnackBar()
+    }
+    
+    /**
+     
      Show Snackbar with text and duration
       
      ## Usage Example: ##
